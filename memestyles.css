@@ -1,0 +1,110 @@
+html, body{
+  font-family: 'Barlow', sans-serif;
+  background-color: #114B5F;
+  font-size:1.15em;
+  color: #FFF;
+  text-align: center;
+}
+
+#title{
+  color: #FFB600;
+  font-size:2.5em;
+}
+
+input[type="text"]{
+  font-family: 'Barlow', sans-serif;
+  width: 99%;
+  font-size: 2.75vh;
+}
+
+button{
+  font-family: 'Barlow', sans-serif;
+  font-size: inherit;
+  float: right;
+  border: 0;
+  background-color: #CCD6EB;
+  margin: 0 0 0 5px;
+}
+
+.container {
+  position: relative;
+}
+
+#left-side{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  width: 55%;
+  color: #6D7275;
+  float: left;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#left-side>p{
+  width: 100%;
+}
+
+#right-side{
+  width: 40%;
+  float: right;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.memebox{
+  position: relative;
+  width: 45%;
+  text-align:center;
+}
+
+.memeImage{
+  max-width:100%;
+}
+
+.memebox:hover > .memeImage{
+  opacity:0.2;
+  z-index: -1;
+}
+
+.topText{
+  font-family: 'Impact', sans-serif;
+  color: #FFF;
+  font-size: 1.8em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 0;
+}
+
+.bottomText{
+  font-family: 'Impact', sans-serif;
+  color: #FFF;
+  font-size: 1.8em;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+
+.deleteText{
+  text-align: center;
+  background: none;
+  color: #FFF;
+  font-size: 2em;
+  position: absolute;
+  padding: 0 2px 0 2px;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  margin: 0;
+  visibility: hidden;
+}
+
+.memebox:hover > .deleteText{
+  visibility: visible;
+}
