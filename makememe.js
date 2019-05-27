@@ -1,12 +1,8 @@
-/*jshint esversion: 6 */
+/* jshint esversion: 6 */
 
 document.onkeydown = (e)=>{
   if(e.keyCode === 13)
     makeSubmission();
-};
-
-const removeMe = ()=>{
-
 };
 
 const makeSubmission = ()=>{
