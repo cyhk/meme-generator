@@ -59,7 +59,7 @@ button{
 }
 
 .memeImage{
-  max-height:100%;
+  height:100%;
 }
 
 .memebox:hover > .memeImage{
